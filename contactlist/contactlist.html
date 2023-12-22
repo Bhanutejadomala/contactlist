@@ -70,10 +70,10 @@
             <th>Phone No</th>
           </tr>
           <tr>
-            <td>Bhanu Teja</td>
-            <td>Nizamabad</td>
-            <td>bhanuteja@gmail.com</td>
-            <td>1234567890</td>
+            <td id="name">Bhanu Teja</td>
+            <td id="address">Nizamabad</td>
+            <td id="email">bhanuteja@gmail.com</td>
+            <td id="phone">1234567890</td>
           </tr> 
     </table>
     
@@ -82,16 +82,16 @@
     <script>
         function Contact(){
           let name=document.getElementById('name').value
-          document.getElementById('n').innerHTML=name
+          document.getElementById('name').innerHTML=name
     
           let address=document.getElementById('address').value
-          document.getElementById('a').innerHTML=address
+          document.getElementById('address').innerHTML=address
     
           let email=document.getElementById('email').value
-          document.getElementById('e').innerHTML=email
+          document.getElementById('email').innerHTML=email
     
           let phone=document.getElementById('phone').value
-          document.getElementById('p').innerHTML=phone
+          document.getElementById('phone').innerHTML=phone
         }
     </script>
 </body>
